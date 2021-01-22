@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<LinearLayout
+    android:id="@+id/testus"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+
+    tools:context="com.botsoft.trawlbens.MainActivity" >
+
+    <com.botsoft.trawlbens.PostCompoundView
+        android:id="@+id/view2"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:title="2.BBC Disaster"
+        app:description="BBC News"
+        app:rate="2"
+        app:verified="0"
+        app:url="@drawable/ic_bbc"
+        />
+
+    <com.botsoft.trawlbens.PostCompoundView
+        android:id="@+id/view1"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:title="3.CNN Breaking US"
+        app:description="CNN News"
+        app:rate="4"
+        app:verified="1"
+        app:url="@drawable/ic_cnn"
+         />
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ColorOptionsView">
+        <attr name="title" format="string" localization="suggested" />
+        <attr name="description" format="string" localization="suggested" />
+        <attr name="rate" format="string" localization="suggested" />
+        <attr name="verified" format="string" localization="suggested" />
+        <attr name="url" format="integer" />
+    </declare-styleable>
+
+</resources>
